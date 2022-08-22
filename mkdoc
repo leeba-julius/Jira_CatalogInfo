@@ -1,0 +1,7 @@
+site_name: "Test-Jira"
+site_description: "This is used to test Jira plugin"
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
