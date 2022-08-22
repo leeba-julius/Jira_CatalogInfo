@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "Test Jira"
+  name: "TestJira"
   annotations:
    github.com/project-slug: leeba-julius/Jira_CatalogInfo
    backstage.io/techdocs-ref: dir:.
