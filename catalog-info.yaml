@@ -1,13 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "TestJira"
+  name: Name
+  description: Description
   annotations:
-   github.com/project-slug: leeba-julius/Jira_CatalogInfo
-   backstage.io/techdocs-ref: dir:.
-   jira/project-key: MAN
-   jira/token-type: Bearer
+    github.com/project-slug: leeba-julius/Jira_CatalogInfo
 spec:
-  type: service
-  owner: leeba-julius
-  lifecycle: experimental
+  type: service #NB! needs to be updated
+  owner: user:ab014fr
+  lifecycle: development #NB! needs to be updated
